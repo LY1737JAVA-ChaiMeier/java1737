@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>表单小结</title>
+</head>
+
+<body>
+  <table border="" width="">
+    <form>
+      <p>申请表</p>
+      <p>姓名:
+        <input type="hidden" name="zhangsan" value="zhangsan"/>
+        <input type="text" name="" value=""/>
+      </p>
+      <p>密码:
+        <input type="password" name="mima" value="" maxlength="10"/>
+      </p>
+      <p>照片:<input type="file" name="files"/></p>
+      <p>感兴趣的职业:</p>
+      <p><input type="radio" name="zhiye" value="zhiye" checked="checked"/>Web设计
+      <input type="radio" name="zhiye" value="zhiye"/>Web开发</p>
+      <p>向往城市:
+        <select name="country" size="" >
+          <option value="请选择" selected="selected">请选择</option>
+          <option value="上海">上海</option>
+          <option value="北京">北京</option>
+          <option value="广州">广州</option>
+        </select>
+      </p>
+      <p>协议:</p>
+      <p>
+        <textarea name="xieyi" cols="60" rows="8" readonly="readonly">求职信息必须真实、准确，本网站只负责向企业推荐。
+        </textarea><br /><br />
+        <input type="checkbox" name="agree"/>我认真阅读并接受以上协议
+      </p>
+      <p>经验:</p>
+      <p>
+        <select name="jingyan" size="">
+          <option value="无经验" selected="selected">无经验</option>
+          <option value="有经验">有经验</option>
+          <option value="经验不足">经验不足</option>
+        </select>
+      </p>
+      <p>
+        <input type="submit" name="btn" value="提交" disabled="disabled"/>
+        <input type="reset" value="重置"/>
+      </p>
+    </form>
+  </table>
+</body>
+</html>
